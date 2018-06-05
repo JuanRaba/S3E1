@@ -7,13 +7,25 @@
       .row{
         clear: both;
       }
+
+      #banner{
+        background-color: limegreen; 
+        color: white; 
+        font-size: 25px;
+        text-align: center;
+        padding: 50px
+      }
       @media (max-width: 480px) {
-		.cell{
+		  .cell{
 	        float: left;
 	        width: 100%;
 	        padding: 10%;
 	        box-sizing: border-box;
       	}
+        #banner{
+          font-size: 3vh;
+          padding: 5vh
+        }
       }
       @media (min-width: 481px) {
 	      .cell{
@@ -22,7 +34,7 @@
 	        padding: 5%;
 	        box-sizing: border-box;
 	      }
-	  }	
+	    }	
       .imageresponsive{
       	width: 100%
       }
@@ -30,7 +42,7 @@
   </head>
   <body>
 
-    <div class="row" style="background-color: limegreen; color: white; font-size: 25px; text-align: center;padding: 50px">
+    <div class="row" id="banner">
     	HOLA!!<br>
     	ESTE ES UN EJERCICIO DE GRILLAS
     </div>
